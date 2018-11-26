@@ -1,0 +1,16 @@
+html, body{
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+/* 清除浮动 */
+.clearfix {
+  zoom:1;/* 兼容IE6 */
+}
+.clearfix:after {
+  display:block;
+  content:"";
+  clear:both;
+  height:0;
+}
